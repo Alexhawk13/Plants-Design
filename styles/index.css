@@ -5,51 +5,119 @@ body {
 
 .header__top-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.search {
+  border: none;
 }
 
 .navigation {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+.header__right-logo:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav {
+  margin: 10px 0px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  padding: 0px 7px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.header-hr {
+  border: none;
+  background-color: lightgrey;
+  height: 0.5px;
 }
 
 .banner {
   background-color: #ade1c5;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  height: 70vh;
+}
+
+.banner-img {
+  height: 400px;
+  position: absolute;
+  left: 55%;
 }
 
 .banner__top-left {
   font-family: "Alex Brush", cursive;
   font-size: 50px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.banner__top-right {
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .banner__middle-header {
-  font-size: 72px;
-  margin: 0;
+  font-size: 62px;
+  margin-top: -20px;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .banner__middle {
   display: flex;
 }
 
+.banner__middle-price {
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.shop-now {
+  color: black;
+  text-transform: uppercase;
+}
+
 .products {
   background-color: #e6e6e6;
+  min-height: 100vh;
+  padding: 50px 0;
 }
 
 .products__nav {
   display: flex;
   justify-content: space-between;
+  width: 84.65%;
+  margin: 0px auto;
+  border-bottom: 0.5px solid lightgrey;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  text-transform: uppercase;
 }
 
-.products__nav__left {
-  display: flex;
+.products__nav__right-input {
+  border: none;
+  background-color: inherit;
 }
 
 .products__nav__left-item {
-  padding-left: 5px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: grey;
 }
 
 .background {
@@ -61,6 +129,9 @@ body {
 
 .products__main {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
 .products__main-card {
@@ -70,6 +141,14 @@ body {
   background-color: white;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.products__main-card:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.products__main-card:nth-child(-n+3) {
+  margin-bottom: 30px;
 }
 
 .products__main-card__wrapper {
@@ -100,8 +179,9 @@ body {
   left: -9%;
   padding: 15px 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #8ed1b7;
   position: absolute;
+  color: white;
 }
 
 .products__main-price_new {
@@ -110,6 +190,16 @@ body {
 
 .products__main-price_old {
   text-decoration: line-through;
+  color: lightgrey;
+}
+
+.background-img {
+  height: 100%;
+  width: 100%;
+}
+
+.hot {
+  background-color: pink;
 }
 
 .footer__wrapper {
@@ -123,6 +213,105 @@ body {
 
 .products__main__footer-text {
   text-transform: uppercase;
+  color: black;
+}
+
+.products__main__footer-link {
+  text-decoration: none;
+}
+
+.hr {
+  width: 80%;
+  border: none;
+  background-color: lightgrey;
+  height: 0.5px;
+}
+
+.feature {
+  height: 100vh;
+  display: flex;
+}
+
+.feature__right-column {
+  background-color: #8ed1b7;
+}
+
+.feature__left-column {
+  height: 100vh;
+  align-self: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+}
+
+.box-header {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #86c5ac;
+  text-align: right;
+}
+
+.product-name {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.feature_price_new {
+  padding: 65px 30px;
+  border-radius: 50%;
+  font-size: 45px;
+  color: white;
+  background-color: pink;
+  z-index: 9999;
+}
+
+.feature-price {
+  position: absolute;
+  bottom: 40%;
+  right: 15%;
+}
+
+.feature_price_old {
+  text-decoration: line-through;
+  font-size: 20px;
+  position: absolute;
+  top: -30%;
+  right: 20%;
+}
+
+.feature__box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.short-describe {
+  text-transform: capitalize;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.extended-description {
+  color: white;
+}
+
+.buy {
+  color: white;
+}
+
+.box-header {
+  margin: 30px 0;
+}
+
+.box-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 23px;
+  letter-spacing: 25px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
