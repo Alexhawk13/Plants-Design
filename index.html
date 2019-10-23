@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700|Titillium+Web:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
   </head>
@@ -10,88 +14,359 @@
     <header class="header">
       <div class="header__top-wrapper">
       <div class="search">
-        <img src="images/Search.png" alt="" class="search__logo">
-        <input type="text" name="" value="" placeholder="search">
+        <label for="search"> <img src="images/Search.png" alt="" class="search__logo"></label>
+        <input type="text" id="search" name="" value="" placeholder="SEARCH" class="search">
       </div>
       <img src="images/logo.png" alt="" class="main-logo">
       <div class="header__right">
-        <img src="images/Nav1.png" alt="" class="header__right-logo">
-        <img src="images/Nav2.png" alt="" class="header__right-logo">
-        <img src="images/Nav3.png" alt="" class="header__right-logo">
+        <a href="#" class="header__right-logo">  <img src="images/Nav1.png" alt="" class="header__right-logo"></a>
+        <a href="#" class="header__right-logo">  <img src="images/Nav2.png" alt="" ></a>
+        <a href="#" class="header__right-logo">  <img src="images/Nav3.png" alt="" ></a>
       </div>
       </div>
-      <hr>
+      <hr class="header-hr">
       <div class="navigation">
         <nav class="nav">
-          <span class="nav-item">home</span>
-          <span class="nav-item">shop</span>
-          <span class="nav-item">element</span>
-          <span class="nav-item">pages</span>
-          <span class="nav-item">portfolio</span>
-          <span class="nav-item">blogs</span>
+          <a href="#"class="nav-item"><span>home</span></a>
+          <a href="#"class="nav-item"><span>shop</span></a>
+          <a href="#"class="nav-item"><span>element</span></a>
+          <a href="#"class="nav-item"><span>pages</span></a>
+          <a href="#"class="nav-item"><span>portfolio</span></a>
+          <a href="#"class="nav-item"><span>blogs</span></a>
         </nav>
       </div>
+      </header>
       <div class="banner">
         <div class="left">
           <div class="banner__top">
-            <span class="banner__top-left">new</span><span class="banner__top-right">arrivals</span>
+            <span class="banner__top-left">New</span><span class="banner__top-right">arrivals</span>
           </div>
           <div class="banner__middle">
             <h1 class="banner__middle-header">sky planter</h1>
-            <span class="banner__middle-price">$18</span>
+            <span class="banner__middle-price">$18.00</span>
           </div>
-          <a href="#">shop now</a>
+          <a href="#" class="shop-now">shop now</a>
         </div>
-        <img src="" alt="" class="banner-img">
+        <img src="images/plant.png" alt="" class="banner-img">
       </div>
       <main class="products">
         <nav class="products__nav">
           <div class="products__nav__left">
             <img src="images/Nav3.png" alt="" class="logo">
-            <span class="products__nav__left-item">all</span>
-            <span class="products__nav__left-item">home</span>
-            <span class="products__nav__left-item">learning</span>
-            <span class="products__nav__left-item">ffice</span>
-            <span class="products__nav__left-item">utdoor</span>
+            <a href="#" class="products__nav__left-item"><span>all</span></a>
+            <a href="#" class="products__nav__left-item"><span>home</span></a>
+            <a href="#" class="products__nav__left-item"><span>learning</span></a>
+            <a href="#" class="products__nav__left-item"><span>office</span></a>
+            <a href="#" class="products__nav__left-item"><span>outdoor</span></a>
           </div>
           <div class="products__nav__right">
-            <img src="images/Search.png" alt="" class="products__nava__right-img">
-            <input type="text" name="" value="" class="products__nava__right-img" placeholder="search">
+            <label for="product-search"><img src="images/Search.png" alt="" class="products__nav__right-img"></label>
+            <input type="text" id="product-search" name="" value="" class="products__nav__right-input" placeholder="SEARCH">
           </div>
         </nav>
         <div class="products__main">
           <div class="products__main-card">
             <div class="products__main-card__wrapper">
               <div class="products__main-card-left">
-                <img src="images/Nav3.png" alt="" class="products__main-card-left-logo">
-                <img src="images/heart.png" alt="" class="products__main-card-left-logo">
-                <img src="images/compare.png" alt="" class="products__main-card-left-logo">
+                <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
               </div>
               <div class="products__main-card-right">
                 <div class="background">
-                  <img src="" alt="" class="background-img">
+                  <img src="images/lava.jpg" alt="" class="background-img">
                   <span class="background-accent">New</span>
                 </div>
-
               </div>
             </div>
               <div class="footer__wrapper">
-              <div class="header-and-price">
-                <h2 class="products__main-header">lava vtase</h2>
-                <span class="products__main-price_new">$65.00</span>
-                <span class="products__main-price_old">$35.00</span>
+                <div class="header-and-price">
+                  <h2 class="products__main-header">lava vtase</h2>
+                  <span class="products__main-price_new">$65.00</span>
+                  <span class="products__main-price_old">$35.00</span>
+                </div>
+                <hr class="hr">
+                <div class="products__main__footer">
+                  <a href="#" class="products__main__footer-link">
+                  <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                  <span class="products__main__footer-text">
+                    add to cart
+                  </span>
+                  </a>
+                </div>
               </div>
-              <hr>
-              <div class="products__main__footer">
-                <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
-                <span class="products__main__footer-text">
-                  add to cart
-                </span>
+            </div>
+            <div class="products__main-card">
+              <div class="products__main-card__wrapper">
+                <div class="products__main-card-left">
+                  <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                  <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                  <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
+                </div>
+                <div class="products__main-card-right">
+                  <div class="background">
+                    <img src="images/ceramic.jpg" alt="" class="background-img">
+                    <span class="background-accent hot">HOT</span>
+                  </div>
+                </div>
+              </div>
+                <div class="footer__wrapper">
+                  <div class="header-and-price">
+                    <h2 class="products__main-header">lava vtase</h2>
+                    <span class="products__main-price_new">$65.00</span>
+                    <span class="products__main-price_old">$35.00</span>
+                  </div>
+                  <hr class="hr">
+                  <div class="products__main__footer">
+                    <a href="#" class="products__main__footer-link">
+                    <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                    <span class="products__main__footer-text">
+                      add to cart
+                    </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="products__main-card">
+                <div class="products__main-card__wrapper">
+                  <div class="products__main-card-left">
+                    <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                    <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                    <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
+                  </div>
+                  <div class="products__main-card-right">
+                    <div class="background">
+                      <img src="images/service.jpg" alt="" class="background-img">
+                      <span class="background-accent">New</span>
+                    </div>
+                  </div>
+                </div>
+                  <div class="footer__wrapper">
+                    <div class="header-and-price">
+                      <h2 class="products__main-header">lava vtase</h2>
+                      <span class="products__main-price_new">$65.00</span>
+                      <span class="products__main-price_old">$35.00</span>
+                    </div>
+                    <hr class="hr">
+                    <div class="products__main__footer">
+                      <a href="#" class="products__main__footer-link">
+                      <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                      <span class="products__main__footer-text">
+                        add to cart
+                      </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__main-card">
+                  <div class="products__main-card__wrapper">
+                    <div class="products__main-card-left">
+                      <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                      <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                      <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
+                    </div>
+                    <div class="products__main-card-right">
+                      <div class="background">
+                        <img src="images/jar.jpg" alt="" class="background-img">
+                      </div>
+                    </div>
+                  </div>
+                    <div class="footer__wrapper">
+                      <div class="header-and-price">
+                        <h2 class="products__main-header">lava vtase</h2>
+                        <span class="products__main-price_new">$65.00</span>
+                        <span class="products__main-price_old">$35.00</span>
+                      </div>
+                      <hr class="hr">
+                      <div class="products__main__footer">
+                        <a href="#" class="products__main__footer-link">
+                        <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                        <span class="products__main__footer-text">
+                          add to cart
+                        </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__main-card">
+                    <div class="products__main-card__wrapper">
+                      <div class="products__main-card-left">
+                        <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                        <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                        <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
+                      </div>
+                      <div class="products__main-card-right">
+                        <div class="background">
+                          <img src="images/boat.jpg" alt="" class="background-img">
+                          <span class="background-accent hot">HOT</span>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="footer__wrapper">
+                        <div class="header-and-price">
+                          <h2 class="products__main-header">lava vtase</h2>
+                          <span class="products__main-price_new">$65.00</span>
+                          <span class="products__main-price_old">$35.00</span>
+                        </div>
+                        <hr class="hr">
+                        <div class="products__main__footer">
+                          <a href="#" class="products__main__footer-link">
+                          <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                          <span class="products__main__footer-text">
+                            add to cart
+                          </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="products__main-card">
+                      <div class="products__main-card__wrapper">
+                        <div class="products__main-card-left">
+                          <a href="#"> <img src="images/Nav3.png" alt="" class="products__main-card-left-logo"></a>
+                          <a href="#"> <img src="images/heart.png" alt="" class="products__main-card-left-logo"></a>
+                          <a href="#"> <img src="images/compare.png" alt="" class="products__main-card-left-logo"></a>
+                        </div>
+                        <div class="products__main-card-right">
+                          <div class="background">
+                            <img src="images/pot.jpg" alt="" class="background-img">
+                            <span class="background-accent">New</span>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="footer__wrapper">
+                          <div class="header-and-price">
+                            <h2 class="products__main-header">lava vtase</h2>
+                            <span class="products__main-price_new">$65.00</span>
+                            <span class="products__main-price_old">$35.00</span>
+                          </div>
+                          <hr class="hr">
+                          <div class="products__main__footer">
+                            <a href="#" class="products__main__footer-link">
+                            <img src="images/Nav2.png" alt="" class="products__main__footer-logo">
+                            <span class="products__main__footer-text">
+                              add to cart
+                            </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+        </main>
+        <div class="feature">
+          <div class="feature__left-column">
+            <img src="images/wood-stand.png" alt="" class="feature-img">
+            <div class="feature-price">
+              <span class="feature_price_new">$35.00
+            </span>
+            <span class="feature_price_old">$65.00</span>
+
+            </div>
+          </div>
+          <span class="box-text">wood stand</span>
+          <div class="feature__right-column">
+
+              <div class="feature__box">
+                <h2 class="box-header">featured</h2>
+                <span class="product-name">lava vase</span>
+                <br>
+                <span class="short-describe">ceramic planter with wood stand</span>
+                <br>
+                <p class="extended-description">
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                  feugiat vitae, ultricies eget, tempor sit amet, ante.
+                  Donec eu libero sit amet quam egestas semper. Aenean ultricies
+                  mi vitae est. Mauris placerat eleifend leo.
+                </p>
+                <br>
+                <a href="#" class="buy">shop now</a>
+              </div>
+          </div>
+        </div>
+        <div class="benefits">
+          <div class="benefit">
+            <img src="images/benefit1.png" alt="" class="benefit-img">
+            <h2 class="benefit-header">fast delivery</h2>
+            <span class="benefit-text">same day delivery as soon as possible</span>
+          </div>
+          <div class="benefit">
+            <img src="images/benefit2.png" alt="" class="benefit-img">
+            <h2 class="benefit-header">special discount</h2>
+            <span class="benefit-text">get attractive offers day by day</span>
+          </div>
+          <div class="benefit">
+            <img src="images/benefit3.png" alt="" class="benefit-img">
+            <h2 class="benefit-header">secure checkout</h2>
+            <span class="benefit-text">fully secured SSL checkout technology</span>
+          </div>
+          <div class="benefit">
+            <img src="images/benefit4.png" alt="" class="benefit-img">
+            <h2 class="benefit-header">money returns</h2>
+            <span class="benefit-text">100% money back guarantee</span>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer__low-wrapper">
+          <div class="first-column">
+            <img src="images/logo.png" alt="" class="main-logo">
+            <p class="first-column-text">Watson Website Builder is a big
+               library of pre-designed web elements which help you create
+               website in few minutes.</p>
+            <a href="#" class="read-more">Read - <span class="more"> more</span><i class="fas fa-angle-double-right"></i></a>
+          </div>
+          <div class="second-column">
+            <h4 class="Usefull-links">Usefull links</h4>
+            <ul class="links">
+              <a href="#" class="link"> <li >Our brand</li></a>
+              <a href="#" class="link"> <li>Special offers</li></a>
+              <a href="#" class="link"> <li>Help topics</li></a>
+              <a href="#" class="link"> <li>delivery information</li></a>
+              <a href="#" class="link"> <li>Social media</li></a>
+              <a href="#" class="link"> <li>Gift vouchers</li></a>
+              <a href="#" class="link"> <li>latest jobs</li></a>
+              <a href="#" class="link"> <li>Terms & conditions</li></a>
+              <a href="#" class="link"> <li>Affiliates</li></a>
+            </ul>
+          </div>
+          <!-- <div class="third-column">
+
+          </div> -->
+          <div class="third-column">
+            <div class="insta-header">
+                <img src="images/insta.png" alt="" class="insta">
+                <span class="insta-text">Instagram</span>
+            </div>
+            <div class="insta-grid">
+              <img src="images/img1.jpg" alt="" class="img1">
+              <img src="images/img2.jpg" alt="" class="img2">
+              <img src="images/img3.jpg" alt="" class="img3">
+              <img src="images/img4.jpg" alt="" class="img4">
+              <img src="images/img5.jpg" alt="" class="img5">
+              <img src="images/img6.jpg" alt="" class="img6">
+              <img src="images/img7.jpg" alt="" class="img7">
+              <img src="images/img8.jpg" alt="" class="img8">
+            </div>
+          </div>
+          </div>
+          <hr class="footer-hr">
+          <div class="footer-basement">
+            <div class="rights">
+              <img src="images/copyrights.png" alt="">2002-2018 themeExpert Inc.All Rights Reserved
+            </div>
+            <div class="payement-options">
+              <div class="name">
+
+              </div>
+              <div class="cards">
+                <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                <img src="images/comodo.png" alt="" class="footer-card">
+                <img src="images/bitcoin.svg" alt="" class="footer-card">
               </div>
             </div>
           </div>
-        </div>
-      </main>
-    </header>
-  </body>
-</html>
+        </footer>
+        <script src="https://use.fontawesome.com/1f3c90ba38.js"></script>
+    </body>
+  </html>
