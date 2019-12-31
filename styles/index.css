@@ -383,7 +383,14 @@ body {
   flex-grow: 1;
 }
 
+.arrows {
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+}
+
 .read-more {
+  position: relative;
   text-decoration: none;
   color: black;
   transition-duration: 1s;
