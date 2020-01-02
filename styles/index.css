@@ -39,7 +39,8 @@ body {
   color: black;
   padding: 0px 7px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 15px;
+  font-weight: 600;
   font-family: "Roboto", sans-serif;
 }
 
@@ -553,11 +554,14 @@ body {
     font-size: 8vw;
   }
 
-  .feature__box {
-    display: block;
-  }
   .feature-img {
     width: 160px;
+  }
+  .feature__price {
+    right: 3%;
+  }
+  .feature__price_new {
+    font-size: 30px;
   }
 
   .extended-description {
